@@ -54,7 +54,7 @@ y comprobamos el status:
 ufw status
 ```
 
-![Master ufw openssh](/img/master_ufw_openssh_status.png 'Master ufw openssh.')
+![Master ufw allow openssh](/img/master_allow_openssh_status.png 'Master ufw allow openssh.')
 
 El servidor actualmente está bloqueando todas las conexiones excepto ssh.
 
