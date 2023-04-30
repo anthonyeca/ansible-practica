@@ -20,7 +20,7 @@
 **Configuración del nodo Slave**
 
 ![Slave ifconfig](/img/slave_inconfig.png 'Slave ifconfig.')
-[Subir](#top)
+
 <a name="item2"></a>
 
 ## Configuración de un firewall básico
@@ -57,7 +57,7 @@ ufw status
 ![Master ufw openssh](/img/master_ufw_openssh_status.png 'Master ufw openssh.')
 
 El servidor actualmente está bloqueando todas las conexiones excepto ssh.
-[Subir](#top)
+
 <a name="item3"></a>
 
 ## Configuración de la clave SSH
@@ -120,7 +120,7 @@ sudo systemctl restart ssh
 ´´´
 
 ![Slave PasswordNo](/img/slave_passwordNo.png 'Slave PasswordNo.')
-[Subir](#top)
+
 <a name="item4"></a>
 
 ## Configuración de Ansible
