@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # Entorno para practicar Ansible
 
 ## Índice de Contenidos
@@ -18,7 +20,7 @@
 **Configuración del nodo Slave**
 
 ![Slave ifconfig](/img/slave_inconfig.png 'Slave ifconfig.')
-
+[Subir](#top)
 <a name="item2"></a>
 
 ## Configuración de un firewall básico
@@ -55,7 +57,7 @@ ufw status
 ![Master ufw openssh](/img/master_ufw_openssh_status.png 'Master ufw openssh.')
 
 El servidor actualmente está bloqueando todas las conexiones excepto ssh.
-
+[Subir](#top)
 <a name="item3"></a>
 
 ## Configuración de la clave SSH
@@ -118,7 +120,7 @@ sudo systemctl restart ssh
 ´´´
 
 ![Slave PasswordNo](/img/slave_passwordNo.png 'Slave PasswordNo.')
-
+[Subir](#top)
 <a name="item4"></a>
 
 ## Configuración de Ansible
@@ -203,3 +205,5 @@ ansible servers -a "uptime" -u root
 # Conclusión
 
 Esta guía nos ha servido para instalar Ansible, configurar un inventario y ejecutar comandos desde un nodo de control (Ansible Control Node). Una vez confirmes que eres capaz de conectar y controlar tu infraestructura desde un Ansible Control node, puedes ejecutar cualquier comando o playbook que decidas en esos hosts.
+
+[Subir](#top)
