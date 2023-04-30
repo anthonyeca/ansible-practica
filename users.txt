@@ -1,0 +1,7 @@
+Master:
+anth0ny
+Pass*
+
+Slave:
+el14s
+Pass*

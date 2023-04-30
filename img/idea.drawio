@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" modified="2023-04-29T23:55:53.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="OGgggkpPsNCGlOlYZXwa" version="21.2.3" type="device">
+  <diagram name="Página-1" id="g9y7OFc0SlW-h0Sp7nwA">
+    <mxGraphModel dx="391" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--1" value="" style="swimlane;startSize=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="220" height="240" as="geometry">
+            <mxRectangle x="240" y="200" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="10" y="10" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="44" as="sourcePoint" />
+            <mxPoint x="155" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--6" value="Master" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="29" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--9" value="Slave" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="149" y="10" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="19" y="90" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="128.6" y="90" width="72.4" height="72.4" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="9" y="171.5" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--18" value="Monitorizacion" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="20" y="171.5" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--20" value="Scripts en cron para monitorizar CPU,RAM,DISK" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="20" y="188.5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--23" value="Red NAT Interna" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="70" y="10" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--28" value="Ubuntu Server 22.04" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="22.48" y="60" width="53.04" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--27" value="Docker" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="144.8" y="122.2" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--29" value="Nginx" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="144.8" y="142.2" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--32" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="158.8" y="28" width="17.92" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--31" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="38" y="28" width="17.92" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--34" value="Ansible" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="144.8" y="102.2" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--36" value="Alertas mediante scripts de Python y&amp;nbsp; notificaciones en telegram" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="21" y="208.5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--26" value="Slave" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="144.8" y="90.00000000000001" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--25" value="Master" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="23.80000000000001" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--39" value="Ubuntu Server 22.04" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="141.24" y="60" width="53.04" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OiDhf2oz0HeLRmlVTqJ--38" value="Ansible" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="OiDhf2oz0HeLRmlVTqJ--1">
+          <mxGeometry x="22.80000000000001" y="109" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
