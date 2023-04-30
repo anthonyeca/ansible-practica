@@ -15,11 +15,11 @@
 
 **Configuración del nodo master**
 
-![Master ifconfig](/img/master_inconfig.png 'Master ifconfig.')
+![Master ifconfig](/img/master_ifconfig.png 'Master ifconfig.')
 
 **Configuración del nodo Slave**
 
-![Slave ifconfig](/img/slave_inconfig.png 'Slave ifconfig.')
+![Slave ifconfig](/img/slave_ifconfig.png 'Slave ifconfig.')
 
 <a name="item2"></a>
 
