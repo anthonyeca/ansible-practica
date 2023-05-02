@@ -98,9 +98,9 @@ Probablemente, al ser la primera vez no reconocerá al equipo local y debes deci
 
 Probamos la conexión al servidor slave
 
-´´´
+```
 ssh usuario@servidor
-´´´
+```
 
 ![Master sshToSlave](/img/master_sshToSlave.png 'Master SSHtoSlave')
 
@@ -108,16 +108,17 @@ ssh usuario@servidor
 
 Una vez hecho esto , y probado que nos conectamos correctamente, debemos deshabilitar la autenticación por password en el servidor, esto se hace en el fichero /etc/ssh/sshd_config
 
-´´´
+```
 . . .
 PasswordAuthentication no
 . . .
-´´´
+```
 
 Y debemos reiniciar el servicio:
-´´´
+
+```
 sudo systemctl restart ssh
-´´´
+```
 
 ![Slave PasswordNo](/img/slave_passwordNo.png 'Slave PasswordNo.')
 
